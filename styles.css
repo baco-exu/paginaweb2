@@ -1,0 +1,54 @@
+body {
+    color: white;
+    background: rgb(60, 89, 253);
+    margin: 8px;
+    font-family: "Bungee Tint", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 1px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.chamada{
+    background:rgb(113 161 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: 20px;
+
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+img{
+    height: 200px;
+}
+.fila-de-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.videos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.videos img{
+    opacity: 0.5;
+    height: 500px;
+}
+.videos img:hover{
+    opacity: 1.0;
+    border: 5px solid black;
+}
